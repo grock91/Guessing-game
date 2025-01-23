@@ -1,222 +1,222 @@
 const topics = [
     {
         category: "Cricket",
-        topic: "Sachin Tendulkar",
+        topic: "VVS Laxman",
         hints: [
-            "👑 Retired from all forms of cricket in 2013.",
-            "🏆 Won the 2011 ICC Cricket World Cup.",
-            "🏏 Holds the record for the most runs in international cricket.",
-            "🌟 Known as the 'God of Cricket' in India.",
-            "🔥 Nicknamed 'Master Blaster'."
+            "🏏 Known for his elegant batting style.",
+            "🔥 Famous for his innings of 281 against Australia in 2001.",
+            "🌟 Nicknamed 'Very Very Special'.",
+            "👑 Played a key role in India's Test victories.",
+            "🇮🇳 Retired from international cricket in 2012."
         ]
     },
     {
         category: "Movies",
-        topic: "3 Idiots",
+        topic: "Gangs of Wasseypur",
         hints: [
-            "🏫 Set in an engineering college.",
-            "🎬 Directed by Rajkumar Hirani.",
-            "🌟 Stars Aamir Khan, R. Madhavan, and Sharman Joshi.",
-            "Famous dialogue: 'All is well'.",
-            "🎬 A Bollywood movie about engineering students."
+            "🎬 A two-part Indian crime film.",
+            "🔥 Directed by Anurag Kashyap.",
+            "🌟 Known for its raw and gritty storytelling.",
+            "🎥 Features a large ensemble cast.",
+            "🇮🇳 Set in the coal mafia of Dhanbad, Jharkhand."
         ]
     },
     {
         category: "Food",
-        topic: "Dosa",
+        topic: "Pav Bhaji",
         hints: [
-            "🔥 Cooked on a hot griddle.",
-            "🍽️ Often served with sambar and coconut chutney.",
-            "🥘 Comes in varieties like Masala Dosa, Plain Dosa, etc.",
-            "🇮🇳 A staple breakfast item in South India.",
-            "🍴 A South Indian dish made from fermented rice and lentils."
+            "🍽️ A popular street food from Mumbai.",
+            "🔥 Made with mashed vegetables and spices.",
+            "🌟 Served with buttered pav (bread rolls).",
+            "🇮🇳 Often garnished with onions and lemon.",
+            "🍴 A favorite snack for all ages."
         ]
     },
     {
         category: "Desserts",
-        topic: "Gulab Jamun",
+        topic: "Rasmalai",
         hints: [
-            "🎉 Often served at festivals and weddings.",
-            "🍯 Deep-fried and soaked in sugar syrup.",
-            "🔥 Best served warm.",
-            "🇮🇳 A favorite sweet across India.",
-            "🍬 A popular Indian dessert made from khoya."
+            "🍬 A soft and spongy dessert.",
+            "🍯 Made from cottage cheese and soaked in sweetened milk.",
+            "🌟 Often flavored with cardamom and saffron.",
+            "🔥 Served chilled.",
+            "🇮🇳 A popular sweet in West Bengal and Odisha."
         ]
     },
     {
         category: "Movies",
-        topic: "Baahubali",
+        topic: "Udaan",
         hints: [
-            "🏰 Set in the fictional kingdom of Mahishmati.",
-            "👑 Stars Prabhas, Rana Daggubati, and Anushka Shetty.",
-            "⚔️ Famous for its visual effects and grand battle scenes.",
-            "🤔 The question 'Why did Kattappa kill Baahubali?' became a meme.",
-            "🎥 A two-part Indian epic fantasy film directed by S.S. Rajamouli."
+            "🎬 A coming-of-age drama film.",
+            "🔥 Directed by Vikramaditya Motwane.",
+            "🌟 Won multiple awards at film festivals.",
+            "🎥 Explores themes of ambition and rebellion.",
+            "🇮🇳 Released in 2010."
         ]
     },
     {
         category: "Personalities",
-        topic: "Rajinikanth",
+        topic: "APJ Abdul Kalam",
         hints: [
-            "🇮🇳 Hails from Tamil Nadu.",
-            "🎬 Famous movies: 'Robot', 'Kabali', 'Enthiran'.",
-            "🔥 Known for his punch dialogues and larger-than-life roles.",
-            "👑 Referred to as 'Thalaiva' by fans.",
-            "🌟 Indian superstar known for his style and dialogue delivery."
+            "👑 Known as the 'Missile Man of India'.",
+            "🌟 Served as the 11th President of India.",
+            "🔥 A renowned scientist and aerospace engineer.",
+            "🇮🇳 Authored several books, including 'Wings of Fire'.",
+            "🎓 A source of inspiration for students."
         ]
     },
     {
         category: "Street Food",
-        topic: "Pani Puri",
+        topic: "Vada Pav",
         hints: [
-            "🌶️ Known for its tangy and spicy flavor.",
-            "💧 Filled with spicy water, tamarind chutney, and potatoes.",
-            "🔥 Best enjoyed fresh and crispy.",
-            "🇮🇳 Called 'Golgappa' in North India and 'Puchka' in West Bengal.",
-            "🍴 A popular Indian street food."
+            "🍴 A popular street food from Maharashtra.",
+            "🔥 Consists of a spicy potato fritter in a bread roll.",
+            "🌟 Often served with green chutney and fried green chilies.",
+            "🇮🇳 Known as the 'Indian Burger'.",
+            "🍽️ A staple snack in Mumbai."
         ]
     },
     {
         category: "Personalities",
-        topic: "Shah Rukh Khan",
+        topic: "Mary Kom",
         hints: [
-            "🏆 Multiple Filmfare Award winner.",
-            "🎬 Famous movies: 'Dilwale Dulhania Le Jayenge', 'My Name is Khan'.",
-            "❤️ Nicknamed 'King Khan'.",
-            "🔥 Known for his romantic roles.",
-            "🌟 Known as the 'King of Bollywood'."
+            "🥊 A six-time world boxing champion.",
+            "🌟 Represented India in multiple Olympics.",
+            "🔥 Known as 'Magnificent Mary'.",
+            "🇮🇳 Hails from Manipur.",
+            "👑 A recipient of the Padma Bhushan."
         ]
     },
     {
         category: "Food",
-        topic: "Biryani",
+        topic: "Dhokla",
         hints: [
-            "🌶️ Known for its rich aroma and taste.",
-            "🍗 Popular varieties: Hyderabadi, Lucknowi, Kolkata.",
-            "🔥 Often served with raita and salad.",
-            "🇮🇳 A favorite at weddings and celebrations.",
-            "🍚 A flavorful rice dish made with spices and meat."
+            "🍽️ A savory snack from Gujarat.",
+            "🔥 Made from fermented rice and chickpea batter.",
+            "🌟 Often served with green chutney.",
+            "🇮🇳 A popular breakfast item.",
+            "🍴 Known for its soft and spongy texture."
         ]
     },
     {
         category: "Personalities",
-        topic: "Amitabh Bachchan",
+        topic: "Ratan Tata",
         hints: [
-            "🎤 Hosted the TV show 'Kaun Banega Crorepati'.",
-            "🎬 Famous movies: 'Sholay', 'Deewaar', 'Piku'.",
-            "🔥 Known as the 'Shahenshah of Bollywood'.",
-            "👑 One of the most influential actors in Indian cinema.",
-            "🌟 Legendary Bollywood actor."
+            "👑 Former chairman of Tata Sons.",
+            "🌟 Known for his philanthropic work.",
+            "🔥 Led the acquisition of Jaguar Land Rover.",
+            "🇮🇳 A recipient of the Padma Vibhushan.",
+            "🎓 An inspiration to entrepreneurs."
         ]
     },
     {
         category: "Football",
-        topic: "Lionel Messi",
+        topic: "Zinedine Zidane",
         hints: [
-            "🇦🇷 Plays for Argentina.",
-            "🏆 Won the FIFA World Cup in 2022.",
-            "🌟 Known for his dribbling and playmaking skills.",
-            "🔥 Often compared to Diego Maradona.",
-            "⚽ Considered one of the greatest footballers of all time."
+            "⚽ A legendary French footballer.",
+            "🔥 Known for his elegance and skill on the ball.",
+            "🌟 Scored a famous volley in the 2002 UEFA Champions League final.",
+            "👑 Won the FIFA World Cup with France in 1998.",
+            "🎥 Later became a successful football manager."
         ]
     },
     {
         category: "Monuments",
-        topic: "Taj Mahal",
+        topic: "Qutub Minar",
         hints: [
-            "🏛️ Located in Agra, India.",
-            "💔 Built by Shah Jahan in memory of his wife Mumtaz Mahal.",
-            "🌟 One of the Seven Wonders of the World.",
-            "🔥 A UNESCO World Heritage Site.",
-            "🇮🇳 A symbol of love and one of India's most iconic landmarks."
+            "🏛️ Located in Delhi, India.",
+            "🔥 The tallest brick minaret in the world.",
+            "🌟 Built by Qutb-ud-din Aibak in the 12th century.",
+            "🇮🇳 A UNESCO World Heritage Site.",
+            "🎥 Featured in several Bollywood movies."
         ]
     },
     {
         category: "Cricket",
-        topic: "Virat Kohli",
+        topic: "Rahul Dravid",
         hints: [
-            "🏏 Former captain of the Indian cricket team.",
-            "🔥 Known for his aggressive batting style.",
-            "🌟 Holds numerous records in international cricket.",
-            "❤️ Married to Anushka Sharma.",
-            "👑 One of the most popular cricketers in the world."
+            "🏏 Known as 'The Wall' of Indian cricket.",
+            "🔥 Famous for his solid defensive technique.",
+            "🌟 Played 164 Test matches for India.",
+            "👑 Later became the head coach of the Indian cricket team.",
+            "🇮🇳 A recipient of the Padma Bhushan."
         ]
     },
     {
         category: "Beverages",
-        topic: "Chai",
+        topic: "Filter Coffee",
         hints: [
-            "🌶️ Can be made with ginger, cardamom, or masala.",
-            "🔥 Often served with snacks like biscuits or pakoras.",
-            "🇮🇳 A staple beverage in Indian households.",
-            "🎉 A symbol of hospitality in India.",
-            "☕ A popular Indian tea made with milk, spices, and sugar."
+            "☕ A popular South Indian coffee.",
+            "🔥 Brewed using a traditional metal filter.",
+            "🌟 Known for its strong aroma and flavor.",
+            "🇮🇳 Often served in a stainless steel tumbler and davara.",
+            "🍴 A staple in Tamil Nadu and Karnataka."
         ]
     },
     {
         category: "Monuments",
-        topic: "Eiffel Tower",
+        topic: "Hawa Mahal",
         hints: [
-            "🇫🇷 Located in Paris, France.",
-            "🌟 One of the most recognizable structures in the world.",
-            "🔥 A symbol of romance and love.",
-            "🏛️ Built by Gustave Eiffel for the 1889 World's Fair.",
-            "🗼 A major tourist attraction and cultural icon."
+            "🏛️ Located in Jaipur, Rajasthan.",
+            "🔥 Known as the 'Palace of Winds'.",
+            "🌟 Built with red and pink sandstone.",
+            "🇮🇳 Features 953 small windows (jharokhas).",
+            "🎥 A major tourist attraction in India."
         ]
     },
     {
         category: "Football",
-        topic: "Cristiano Ronaldo",
+        topic: "Diego Maradona",
         hints: [
-            "🇵🇹 Plays for Portugal.",
-            "🏆 Won the UEFA European Championship in 2016.",
-            "🔥 Known for his goal-scoring ability and athleticism.",
-            "🌟 Often compared to Lionel Messi.",
-            "⚽ Considered one of the greatest footballers of all time."
+            "⚽ A legendary Argentine footballer.",
+            "🔥 Known for the 'Hand of God' goal in the 1986 World Cup.",
+            "🌟 Led Argentina to World Cup victory in 1986.",
+            "👑 Considered one of the greatest players of all time.",
+            "🎥 Passed away in November 2020."
         ]
     },
     {
         category: "Mountains",
-        topic: "Mount Everest",
+        topic: "K2",
         hints: [
-            "🏔️ The highest peak in the world.",
-            "🇳🇵 Located in the Himalayas on the Nepal-China border.",
-            "🔥 A popular destination for mountaineers.",
-            "🌟 First successfully climbed by Edmund Hillary and Tenzing Norgay in 1953.",
-            "🗻 A symbol of human endurance and adventure."
+            "🏔️ The second-highest mountain in the world.",
+            "🔥 Located on the China-Pakistan border.",
+            "🌟 Known as the 'Savage Mountain' due to its difficulty to climb.",
+            "🇳🇵 Part of the Karakoram Range.",
+            "🗻 A dream destination for mountaineers."
         ]
     },
     {
         category: "Books",
-        topic: "Harry Potter",
+        topic: "The Alchemist",
         hints: [
-            "📚 A series of fantasy novels by J.K. Rowling.",
-            "🔥 Follows the journey of a young wizard and his friends.",
-            "🌟 Adapted into a successful film series.",
-            "🎥 Features iconic characters like Hermione, Ron, and Dumbledore.",
-            "⚡ Known for its magical world and themes of friendship and bravery."
+            "📚 A novel by Paulo Coelho.",
+            "🔥 Follows the journey of a shepherd boy named Santiago.",
+            "🌟 Explores themes of dreams and destiny.",
+            "🇧🇷 Originally written in Portuguese.",
+            "🎥 A bestseller worldwide."
         ]
     },
     {
         category: "Architecture",
-        topic: "Burj Khalifa",
+        topic: "Lotus Temple",
         hints: [
-            "🏙️ Located in Dubai, UAE.",
-            "🔥 The tallest building in the world.",
-            "🌟 A symbol of modern architecture and engineering.",
-            "🎉 Features an observation deck and luxury residences.",
-            "🇦🇪 A major tourist attraction in the Middle East."
+            "🏛️ Located in Delhi, India.",
+            "🔥 Shaped like a lotus flower.",
+            "🌟 A Bahá'í House of Worship.",
+            "🇮🇳 Known for its serene ambiance.",
+            "🎥 A major tourist attraction."
         ]
     },
     {
         category: "Food",
-        topic: "Pizza",
+        topic: "Rogan Josh",
         hints: [
-            "🍕 Originated in Italy.",
-            "🔥 A popular fast food worldwide.",
-            "🌟 Comes in varieties like Margherita, Pepperoni, and Hawaiian.",
-            "🇮🇳 Loved by people of all ages in India.",
-            "🍴 Made with a base of dough, tomato sauce, and cheese."
+            "🍽️ A flavorful Kashmiri dish.",
+            "🔥 Made with tender lamb and aromatic spices.",
+            "🌟 Known for its rich red color.",
+            "🇮🇳 A staple in Kashmiri cuisine.",
+            "🍴 Often served with rice or naan."
         ]
     }
 ];
@@ -245,7 +245,7 @@ function loadTopic(index = currentTopicIndex) {
     topicElement.textContent = "❓❓❓";
     hintElement.textContent = currentTopic.hints[0];
     currentHintIndex = 0;
-    revealTopicButton.style.display = "none";
+    revealTopicButton.style.display = "inline-block";
     nextTopicButton.style.display = "none";
     nextHintButton.style.display = "inline-block";
 }
@@ -256,7 +256,6 @@ function showNextHint() {
     if (currentHintIndex < currentTopic.hints.length) {
         hintElement.textContent = currentTopic.hints[currentHintIndex];
     } else {
-        revealTopicButton.style.display = "inline-block";
         nextTopicButton.style.display = "inline-block";
         nextHintButton.style.display = "none";
     }

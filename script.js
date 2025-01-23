@@ -98,56 +98,6 @@ const topics = [
             "🔥 Known as the 'Shahenshah of Bollywood'.",
             "👑 One of the most influential actors in Indian cinema."
         ]
-    },
-    {
-        topic: "Jalebi",
-        hints: [
-            "🍬 A sweet, spiral-shaped dessert.",
-            "🍯 Deep-fried and soaked in sugar syrup.",
-            "🔥 Best served hot and crispy.",
-            "🇮🇳 Often paired with fafda or rabri.",
-            "🎉 A popular treat during festivals."
-        ]
-    },
-    {
-        topic: "MS Dhoni",
-        hints: [
-            "🏏 Former Indian cricket captain.",
-            "🏆 Led India to victory in the 2007 T20 World Cup and 2011 ICC World Cup.",
-            "🔥 Known for his cool and calm demeanor.",
-            "🎬 His life story was depicted in the movie 'MS Dhoni: The Untold Story'.",
-            "👑 Nicknamed 'Captain Cool'."
-        ]
-    },
-    {
-        topic: "Samosa",
-        hints: [
-            "🥟 A deep-fried snack filled with spiced potatoes and peas.",
-            "🌶️ Often served with mint chutney or tamarind sauce.",
-            "🔥 A popular tea-time snack.",
-            "🇮🇳 Found in almost every Indian street food stall.",
-            "🎉 A must-have during festivals."
-        ]
-    },
-    {
-        topic: "A.R. Rahman",
-        hints: [
-            "🎵 Legendary Indian music composer.",
-            "🎬 Famous for his work in 'Slumdog Millionaire', 'Roja', 'Dil Se'.",
-            "🏆 Won two Academy Awards and two Grammy Awards.",
-            "🔥 Known as the 'Mozart of Madras'.",
-            "🌟 Composes music in multiple languages."
-        ]
-    },
-    {
-        topic: "Chai",
-        hints: [
-            "☕ A popular Indian tea made with milk, spices, and sugar.",
-            "🇮🇳 A staple beverage in Indian households.",
-            "🔥 Often served with snacks like biscuits or pakoras.",
-            "🌶️ Can be made with ginger, cardamom, or masala.",
-            "🎉 A symbol of hospitality in India."
-        ]
     }
 ];
 
@@ -158,6 +108,7 @@ const topicElement = document.getElementById('topic');
 const hintElement = document.getElementById('hint');
 const nextHintButton = document.getElementById('next-hint');
 const revealTopicButton = document.getElementById('reveal-topic');
+const nextTopicButton = document.getElementById('next-topic');
 
 function loadTopic() {
     const currentTopic = topics[currentTopicIndex];
@@ -165,6 +116,8 @@ function loadTopic() {
     hintElement.textContent = currentTopic.hints[0];
     currentHintIndex = 0;
     revealTopicButton.style.display = "none";
+    nextTopicButton.style.display = "none";
+    nextHintButton.style.display = "inline-block";
 }
 
 function showNextHint() {
@@ -174,6 +127,8 @@ function showNextHint() {
         hintElement.textContent = currentTopic.hints[currentHintIndex];
     } else {
         revealTopicButton.style.display = "inline-block";
+        nextTopicButton.style.display = "inline-block";
+        nextHintButton.style.display = "none";
     }
 }
 
@@ -181,10 +136,17 @@ function revealTopic() {
     const currentTopic = topics[currentTopicIndex];
     topicElement.textContent = currentTopic.topic;
     revealTopicButton.style.display = "none";
+    nextTopicButton.style.display = "inline-block";
+}
+
+function goToNextTopic() {
+    currentTopicIndex = (currentTopicIndex + 1) % topics.length;
+    loadTopic();
 }
 
 nextHintButton.addEventListener('click', showNextHint);
 revealTopicButton.addEventListener('click', revealTopic);
+nextTopicButton.addEventListener('click', goToNextTopic);
 
 // Load the first topic when the page loads
 loadTopic();

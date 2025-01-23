@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Topic Heading */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Hint Container */
+#hint-container {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    font-size: 1.2rem;
+    color: #555;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#reveal-topic {
+    background-color: #28a745;
+}
+
+#reveal-topic:hover {
+    background-color: #218838;
+}

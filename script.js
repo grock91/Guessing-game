@@ -1,226 +1,227 @@
 const topics = [
     {
         category: "Cricket",
-        topic: "VVS Laxman",
-        hints: [
-            "🏏 Known for his elegant batting style.",
-            "🔥 Famous for his innings of 281 against Australia in 2001.",
-            "🌟 Nicknamed 'Very Very Special'.",
-            "👑 Played a key role in India's Test victories.",
-            "🇮🇳 Retired from international cricket in 2012."
+        topics: [
+            {
+                topic: "VVS Laxman",
+                hints: [
+                    "🏏 Known for his elegant batting style.",
+                    "🔥 Famous for his innings of 281 against Australia in 2001.",
+                    "🌟 Nicknamed 'Very Very Special'.",
+                    "👑 Played a key role in India's Test victories.",
+                    "🇮🇳 Retired from international cricket in 2012."
+                ]
+            },
+            {
+                topic: "Rahul Dravid",
+                hints: [
+                    "🏏 Known as 'The Wall' of Indian cricket.",
+                    "🔥 Famous for his solid defensive technique.",
+                    "🌟 Played 164 Test matches for India.",
+                    "👑 Later became the head coach of the Indian cricket team.",
+                    "🇮🇳 A recipient of the Padma Bhushan."
+                ]
+            },
+            {
+                topic: "Kapil Dev",
+                hints: [
+                    "🏏 Led India to its first World Cup victory in 1983.",
+                    "🔥 Known for his all-round abilities.",
+                    "🌟 Took 434 Test wickets in his career.",
+                    "👑 A recipient of the Padma Bhushan.",
+                    "🇮🇳 Retired from cricket in 1994."
+                ]
+            },
+            {
+                topic: "MS Dhoni",
+                hints: [
+                    "🏏 Former captain of the Indian cricket team.",
+                    "🔥 Known for his cool and calm demeanor.",
+                    "🌟 Led India to victory in the 2007 T20 World Cup and 2011 ICC World Cup.",
+                    "👑 Nicknamed 'Captain Cool'.",
+                    "🇮🇳 One of the most popular cricketers in the world."
+                ]
+            },
+            {
+                topic: "Anil Kumble",
+                hints: [
+                    "🏏 Known for his leg-spin bowling.",
+                    "🔥 Took 619 Test wickets in his career.",
+                    "🌟 Only the second bowler to take all 10 wickets in a Test innings.",
+                    "👑 A recipient of the Padma Shri.",
+                    "🇮🇳 Later became the head coach of the Indian cricket team."
+                ]
+            }
         ]
     },
     {
         category: "Movies",
-        topic: "Gangs of Wasseypur",
-        hints: [
-            "🎬 A two-part Indian crime film.",
-            "🔥 Directed by Anurag Kashyap.",
-            "🌟 Known for its raw and gritty storytelling.",
-            "🎥 Features a large ensemble cast.",
-            "🇮🇳 Set in the coal mafia of Dhanbad, Jharkhand."
+        topics: [
+            {
+                topic: "Gangs of Wasseypur",
+                hints: [
+                    "🎬 A two-part Indian crime film.",
+                    "🔥 Directed by Anurag Kashyap.",
+                    "🌟 Known for its raw and gritty storytelling.",
+                    "🎥 Features a large ensemble cast.",
+                    "🇮🇳 Set in the coal mafia of Dhanbad, Jharkhand."
+                ]
+            },
+            {
+                topic: "Udaan",
+                hints: [
+                    "🎬 A coming-of-age drama film.",
+                    "🔥 Directed by Vikramaditya Motwane.",
+                    "🌟 Won multiple awards at film festivals.",
+                    "🎥 Explores themes of ambition and rebellion.",
+                    "🇮🇳 Released in 2010."
+                ]
+            },
+            {
+                topic: "Paan Singh Tomar",
+                hints: [
+                    "🎬 A biographical sports drama.",
+                    "🔥 Starred Irrfan Khan in the lead role.",
+                    "🌟 Based on the life of athlete Paan Singh Tomar.",
+                    "🎥 Won the National Film Award for Best Feature Film.",
+                    "🇮🇳 Released in 2012."
+                ]
+            },
+            {
+                topic: "The Lunchbox",
+                hints: [
+                    "🎬 A romantic drama film.",
+                    "🔥 Starred Irrfan Khan and Nimrat Kaur.",
+                    "🌟 Known for its unique storyline involving a lunchbox delivery mix-up.",
+                    "🎥 Premiered at the Cannes Film Festival.",
+                    "🇮🇳 Released in 2013."
+                ]
+            },
+            {
+                topic: "Tumbbad",
+                hints: [
+                    "🎬 A horror fantasy film.",
+                    "🔥 Known for its dark and atmospheric storytelling.",
+                    "🌟 Set in the village of Tumbbad in Maharashtra.",
+                    "🎥 Praised for its visual effects and cinematography.",
+                    "🇮🇳 Released in 2018."
+                ]
+            }
         ]
     },
     {
         category: "Food",
-        topic: "Pav Bhaji",
-        hints: [
-            "🍽️ A popular street food from Mumbai.",
-            "🔥 Made with mashed vegetables and spices.",
-            "🌟 Served with buttered pav (bread rolls).",
-            "🇮🇳 Often garnished with onions and lemon.",
-            "🍴 A favorite snack for all ages."
-        ]
-    },
-    {
-        category: "Desserts",
-        topic: "Rasmalai",
-        hints: [
-            "🍬 A soft and spongy dessert.",
-            "🍯 Made from cottage cheese and soaked in sweetened milk.",
-            "🌟 Often flavored with cardamom and saffron.",
-            "🔥 Served chilled.",
-            "🇮🇳 A popular sweet in West Bengal and Odisha."
-        ]
-    },
-    {
-        category: "Movies",
-        topic: "Udaan",
-        hints: [
-            "🎬 A coming-of-age drama film.",
-            "🔥 Directed by Vikramaditya Motwane.",
-            "🌟 Won multiple awards at film festivals.",
-            "🎥 Explores themes of ambition and rebellion.",
-            "🇮🇳 Released in 2010."
-        ]
-    },
-    {
-        category: "Personalities",
-        topic: "APJ Abdul Kalam",
-        hints: [
-            "👑 Known as the 'Missile Man of India'.",
-            "🌟 Served as the 11th President of India.",
-            "🔥 A renowned scientist and aerospace engineer.",
-            "🇮🇳 Authored several books, including 'Wings of Fire'.",
-            "🎓 A source of inspiration for students."
-        ]
-    },
-    {
-        category: "Street Food",
-        topic: "Vada Pav",
-        hints: [
-            "🍴 A popular street food from Maharashtra.",
-            "🔥 Consists of a spicy potato fritter in a bread roll.",
-            "🌟 Often served with green chutney and fried green chilies.",
-            "🇮🇳 Known as the 'Indian Burger'.",
-            "🍽️ A staple snack in Mumbai."
-        ]
-    },
-    {
-        category: "Personalities",
-        topic: "Mary Kom",
-        hints: [
-            "🥊 A six-time world boxing champion.",
-            "🌟 Represented India in multiple Olympics.",
-            "🔥 Known as 'Magnificent Mary'.",
-            "🇮🇳 Hails from Manipur.",
-            "👑 A recipient of the Padma Bhushan."
-        ]
-    },
-    {
-        category: "Food",
-        topic: "Dhokla",
-        hints: [
-            "🍽️ A savory snack from Gujarat.",
-            "🔥 Made from fermented rice and chickpea batter.",
-            "🌟 Often served with green chutney.",
-            "🇮🇳 A popular breakfast item.",
-            "🍴 Known for its soft and spongy texture."
+        topics: [
+            {
+                topic: "Pav Bhaji",
+                hints: [
+                    "🍽️ A popular street food from Mumbai.",
+                    "🔥 Made with mashed vegetables and spices.",
+                    "🌟 Served with buttered pav (bread rolls).",
+                    "🇮🇳 Often garnished with onions and lemon.",
+                    "🍴 A favorite snack for all ages."
+                ]
+            },
+            {
+                topic: "Dhokla",
+                hints: [
+                    "🍽️ A savory snack from Gujarat.",
+                    "🔥 Made from fermented rice and chickpea batter.",
+                    "🌟 Often served with green chutney.",
+                    "🇮🇳 A popular breakfast item.",
+                    "🍴 Known for its soft and spongy texture."
+                ]
+            },
+            {
+                topic: "Rogan Josh",
+                hints: [
+                    "🍽️ A flavorful Kashmiri dish.",
+                    "🔥 Made with tender lamb and aromatic spices.",
+                    "🌟 Known for its rich red color.",
+                    "🇮🇳 A staple in Kashmiri cuisine.",
+                    "🍴 Often served with rice or naan."
+                ]
+            },
+            {
+                topic: "Pongal",
+                hints: [
+                    "🍽️ A traditional South Indian dish.",
+                    "🔥 Made with rice, lentils, and ghee.",
+                    "🌟 Often prepared during the harvest festival of Pongal.",
+                    "🇮🇳 Served with coconut chutney and sambar.",
+                    "🍴 A symbol of prosperity and abundance."
+                ]
+            },
+            {
+                topic: "Chole Bhature",
+                hints: [
+                    "🍽️ A popular North Indian dish.",
+                    "🔥 Consists of spicy chickpeas and fried bread.",
+                    "🌟 Often served with pickles and onions.",
+                    "🇮🇳 A favorite breakfast or lunch option.",
+                    "🍴 Known for its rich and hearty flavors."
+                ]
+            }
         ]
     },
     {
         category: "Personalities",
-        topic: "Ratan Tata",
-        hints: [
-            "👑 Former chairman of Tata Sons.",
-            "🌟 Known for his philanthropic work.",
-            "🔥 Led the acquisition of Jaguar Land Rover.",
-            "🇮🇳 A recipient of the Padma Vibhushan.",
-            "🎓 An inspiration to entrepreneurs."
-        ]
-    },
-    {
-        category: "Football",
-        topic: "Zinedine Zidane",
-        hints: [
-            "⚽ A legendary French footballer.",
-            "🔥 Known for his elegance and skill on the ball.",
-            "🌟 Scored a famous volley in the 2002 UEFA Champions League final.",
-            "👑 Won the FIFA World Cup with France in 1998.",
-            "🎥 Later became a successful football manager."
-        ]
-    },
-    {
-        category: "Monuments",
-        topic: "Qutub Minar",
-        hints: [
-            "🏛️ Located in Delhi, India.",
-            "🔥 The tallest brick minaret in the world.",
-            "🌟 Built by Qutb-ud-din Aibak in the 12th century.",
-            "🇮🇳 A UNESCO World Heritage Site.",
-            "🎥 Featured in several Bollywood movies."
-        ]
-    },
-    {
-        category: "Cricket",
-        topic: "Rahul Dravid",
-        hints: [
-            "🏏 Known as 'The Wall' of Indian cricket.",
-            "🔥 Famous for his solid defensive technique.",
-            "🌟 Played 164 Test matches for India.",
-            "👑 Later became the head coach of the Indian cricket team.",
-            "🇮🇳 A recipient of the Padma Bhushan."
-        ]
-    },
-    {
-        category: "Beverages",
-        topic: "Filter Coffee",
-        hints: [
-            "☕ A popular South Indian coffee.",
-            "🔥 Brewed using a traditional metal filter.",
-            "🌟 Known for its strong aroma and flavor.",
-            "🇮🇳 Often served in a stainless steel tumbler and davara.",
-            "🍴 A staple in Tamil Nadu and Karnataka."
-        ]
-    },
-    {
-        category: "Monuments",
-        topic: "Hawa Mahal",
-        hints: [
-            "🏛️ Located in Jaipur, Rajasthan.",
-            "🔥 Known as the 'Palace of Winds'.",
-            "🌟 Built with red and pink sandstone.",
-            "🇮🇳 Features 953 small windows (jharokhas).",
-            "🎥 A major tourist attraction in India."
-        ]
-    },
-    {
-        category: "Football",
-        topic: "Diego Maradona",
-        hints: [
-            "⚽ A legendary Argentine footballer.",
-            "🔥 Known for the 'Hand of God' goal in the 1986 World Cup.",
-            "🌟 Led Argentina to World Cup victory in 1986.",
-            "👑 Considered one of the greatest players of all time.",
-            "🎥 Passed away in November 2020."
-        ]
-    },
-    {
-        category: "Mountains",
-        topic: "K2",
-        hints: [
-            "🏔️ The second-highest mountain in the world.",
-            "🔥 Located on the China-Pakistan border.",
-            "🌟 Known as the 'Savage Mountain' due to its difficulty to climb.",
-            "🇳🇵 Part of the Karakoram Range.",
-            "🗻 A dream destination for mountaineers."
-        ]
-    },
-    {
-        category: "Books",
-        topic: "The Alchemist",
-        hints: [
-            "📚 A novel by Paulo Coelho.",
-            "🔥 Follows the journey of a shepherd boy named Santiago.",
-            "🌟 Explores themes of dreams and destiny.",
-            "🇧🇷 Originally written in Portuguese.",
-            "🎥 A bestseller worldwide."
-        ]
-    },
-    {
-        category: "Architecture",
-        topic: "Lotus Temple",
-        hints: [
-            "🏛️ Located in Delhi, India.",
-            "🔥 Shaped like a lotus flower.",
-            "🌟 A Bahá'í House of Worship.",
-            "🇮🇳 Known for its serene ambiance.",
-            "🎥 A major tourist attraction."
-        ]
-    },
-    {
-        category: "Food",
-        topic: "Rogan Josh",
-        hints: [
-            "🍽️ A flavorful Kashmiri dish.",
-            "🔥 Made with tender lamb and aromatic spices.",
-            "🌟 Known for its rich red color.",
-            "🇮🇳 A staple in Kashmiri cuisine.",
-            "🍴 Often served with rice or naan."
+        topics: [
+            {
+                topic: "APJ Abdul Kalam",
+                hints: [
+                    "👑 Known as the 'Missile Man of India'.",
+                    "🌟 Served as the 11th President of India.",
+                    "🔥 A renowned scientist and aerospace engineer.",
+                    "🇮🇳 Authored several books, including 'Wings of Fire'.",
+                    "🎓 A source of inspiration for students."
+                ]
+            },
+            {
+                topic: "Mary Kom",
+                hints: [
+                    "🥊 A six-time world boxing champion.",
+                    "🌟 Represented India in multiple Olympics.",
+                    "🔥 Known as 'Magnificent Mary'.",
+                    "🇮🇳 Hails from Manipur.",
+                    "👑 A recipient of the Padma Bhushan."
+                ]
+            },
+            {
+                topic: "Ratan Tata",
+                hints: [
+                    "👑 Former chairman of Tata Sons.",
+                    "🌟 Known for his philanthropic work.",
+                    "🔥 Led the acquisition of Jaguar Land Rover.",
+                    "🇮🇳 A recipient of the Padma Vibhushan.",
+                    "🎓 An inspiration to entrepreneurs."
+                ]
+            },
+            {
+                topic: "Sundar Pichai",
+                hints: [
+                    "👑 CEO of Alphabet Inc. and Google.",
+                    "🌟 Known for his leadership in the tech industry.",
+                    "🔥 Born in Chennai, India.",
+                    "🇮🇳 A graduate of IIT Kharagpur.",
+                    "🎓 A role model for aspiring engineers."
+                ]
+            },
+            {
+                topic: "Narendra Modi",
+                hints: [
+                    "👑 Current Prime Minister of India.",
+                    "🌟 Known for his leadership and governance.",
+                    "🔥 Previously served as the Chief Minister of Gujarat.",
+                    "🇮🇳 A prominent figure in Indian politics.",
+                    "🎓 A recipient of the Padma Vibhushan."
+                ]
+            }
         ]
     }
 ];
 
+let currentCategoryIndex = 0;
 let currentTopicIndex = 0;
 let currentHintIndex = 0;
 
@@ -231,17 +232,25 @@ const revealTopicButton = document.getElementById('reveal-topic');
 const nextTopicButton = document.getElementById('next-topic');
 const topicList = document.getElementById('topic-list');
 
-// Populate the topic list with categories
-topics.forEach((topic, index) => {
-    const listItem = document.createElement('li');
-    listItem.textContent = topic.category;
-    listItem.addEventListener('click', () => loadTopic(index));
-    topicList.appendChild(listItem);
+// Populate the topic list with categories and sub-topics
+topics.forEach((category, catIndex) => {
+    const categoryItem = document.createElement('li');
+    categoryItem.textContent = category.category;
+    const subTopicList = document.createElement('ul');
+    category.topics.forEach((topic, topicIndex) => {
+        const subTopicItem = document.createElement('li');
+        subTopicItem.textContent = `Topic ${topicIndex + 1}`;
+        subTopicItem.addEventListener('click', () => loadTopic(catIndex, topicIndex));
+        subTopicList.appendChild(subTopicItem);
+    });
+    categoryItem.appendChild(subTopicList);
+    topicList.appendChild(categoryItem);
 });
 
-function loadTopic(index = currentTopicIndex) {
-    currentTopicIndex = index;
-    const currentTopic = topics[currentTopicIndex];
+function loadTopic(catIndex = currentCategoryIndex, topicIndex = currentTopicIndex) {
+    currentCategoryIndex = catIndex;
+    currentTopicIndex = topicIndex;
+    const currentTopic = topics[currentCategoryIndex].topics[currentTopicIndex];
     topicElement.textContent = "❓❓❓";
     hintElement.textContent = currentTopic.hints[0];
     currentHintIndex = 0;
@@ -251,7 +260,7 @@ function loadTopic(index = currentTopicIndex) {
 }
 
 function showNextHint() {
-    const currentTopic = topics[currentTopicIndex];
+    const currentTopic = topics[currentCategoryIndex].topics[currentTopicIndex];
     currentHintIndex++;
     if (currentHintIndex < currentTopic.hints.length) {
         hintElement.textContent = currentTopic.hints[currentHintIndex];
@@ -262,15 +271,15 @@ function showNextHint() {
 }
 
 function revealTopic() {
-    const currentTopic = topics[currentTopicIndex];
+    const currentTopic = topics[currentCategoryIndex].topics[currentTopicIndex];
     topicElement.textContent = currentTopic.topic;
     revealTopicButton.style.display = "none";
     nextTopicButton.style.display = "inline-block";
 }
 
 function goToNextTopic() {
-    currentTopicIndex = (currentTopicIndex + 1) % topics.length;
-    loadTopic();
+    currentTopicIndex = (currentTopicIndex + 1) % topics[currentCategoryIndex].topics.length;
+    loadTopic(currentCategoryIndex, currentTopicIndex);
 }
 
 nextHintButton.addEventListener('click', showNextHint);

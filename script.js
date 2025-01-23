@@ -1,25 +1,6 @@
 const topics = [
     {
-        topic: "3 Idiots",
-        hints: [
-            "🏫 Set in an engineering college.",
-            "🎬 Directed by Rajkumar Hirani.",
-            "🌟 Stars Aamir Khan, R. Madhavan, and Sharman Joshi.",
-            "Famous dialogue: 'All is well'.",
-            "🎬 A Bollywood movie about engineering students."
-        ]
-    },
-    {
-        topic: "Dosa",
-        hints: [
-            "🔥 Cooked on a hot griddle.",
-            "🍽️ Often served with sambar and coconut chutney.",
-            "🥘 Comes in varieties like Masala Dosa, Plain Dosa, etc.",
-            "🇮🇳 A staple breakfast item in South India.",
-            "🍴 A South Indian dish made from fermented rice and lentils."
-        ]
-    },
-    {
+        category: "Cricket",
         topic: "Sachin Tendulkar",
         hints: [
             "👑 Retired from all forms of cricket in 2013.",
@@ -30,6 +11,29 @@ const topics = [
         ]
     },
     {
+        category: "Movies",
+        topic: "3 Idiots",
+        hints: [
+            "🏫 Set in an engineering college.",
+            "🎬 Directed by Rajkumar Hirani.",
+            "🌟 Stars Aamir Khan, R. Madhavan, and Sharman Joshi.",
+            "Famous dialogue: 'All is well'.",
+            "🎬 A Bollywood movie about engineering students."
+        ]
+    },
+    {
+        category: "Food",
+        topic: "Dosa",
+        hints: [
+            "🔥 Cooked on a hot griddle.",
+            "🍽️ Often served with sambar and coconut chutney.",
+            "🥘 Comes in varieties like Masala Dosa, Plain Dosa, etc.",
+            "🇮🇳 A staple breakfast item in South India.",
+            "🍴 A South Indian dish made from fermented rice and lentils."
+        ]
+    },
+    {
+        category: "Desserts",
         topic: "Gulab Jamun",
         hints: [
             "🎉 Often served at festivals and weddings.",
@@ -40,6 +44,7 @@ const topics = [
         ]
     },
     {
+        category: "Movies",
         topic: "Baahubali",
         hints: [
             "🏰 Set in the fictional kingdom of Mahishmati.",
@@ -50,6 +55,7 @@ const topics = [
         ]
     },
     {
+        category: "Personalities",
         topic: "Rajinikanth",
         hints: [
             "🇮🇳 Hails from Tamil Nadu.",
@@ -60,6 +66,7 @@ const topics = [
         ]
     },
     {
+        category: "Street Food",
         topic: "Pani Puri",
         hints: [
             "🌶️ Known for its tangy and spicy flavor.",
@@ -70,6 +77,7 @@ const topics = [
         ]
     },
     {
+        category: "Personalities",
         topic: "Shah Rukh Khan",
         hints: [
             "🏆 Multiple Filmfare Award winner.",
@@ -80,6 +88,7 @@ const topics = [
         ]
     },
     {
+        category: "Food",
         topic: "Biryani",
         hints: [
             "🌶️ Known for its rich aroma and taste.",
@@ -90,6 +99,7 @@ const topics = [
         ]
     },
     {
+        category: "Personalities",
         topic: "Amitabh Bachchan",
         hints: [
             "🎤 Hosted the TV show 'Kaun Banega Crorepati'.",
@@ -100,6 +110,7 @@ const topics = [
         ]
     },
     {
+        category: "Football",
         topic: "Lionel Messi",
         hints: [
             "🇦🇷 Plays for Argentina.",
@@ -110,6 +121,7 @@ const topics = [
         ]
     },
     {
+        category: "Monuments",
         topic: "Taj Mahal",
         hints: [
             "🏛️ Located in Agra, India.",
@@ -120,6 +132,7 @@ const topics = [
         ]
     },
     {
+        category: "Cricket",
         topic: "Virat Kohli",
         hints: [
             "🏏 Former captain of the Indian cricket team.",
@@ -130,6 +143,7 @@ const topics = [
         ]
     },
     {
+        category: "Beverages",
         topic: "Chai",
         hints: [
             "🌶️ Can be made with ginger, cardamom, or masala.",
@@ -140,6 +154,7 @@ const topics = [
         ]
     },
     {
+        category: "Monuments",
         topic: "Eiffel Tower",
         hints: [
             "🇫🇷 Located in Paris, France.",
@@ -150,6 +165,7 @@ const topics = [
         ]
     },
     {
+        category: "Football",
         topic: "Cristiano Ronaldo",
         hints: [
             "🇵🇹 Plays for Portugal.",
@@ -160,6 +176,7 @@ const topics = [
         ]
     },
     {
+        category: "Mountains",
         topic: "Mount Everest",
         hints: [
             "🏔️ The highest peak in the world.",
@@ -170,6 +187,7 @@ const topics = [
         ]
     },
     {
+        category: "Books",
         topic: "Harry Potter",
         hints: [
             "📚 A series of fantasy novels by J.K. Rowling.",
@@ -180,6 +198,7 @@ const topics = [
         ]
     },
     {
+        category: "Architecture",
         topic: "Burj Khalifa",
         hints: [
             "🏙️ Located in Dubai, UAE.",
@@ -190,6 +209,7 @@ const topics = [
         ]
     },
     {
+        category: "Food",
         topic: "Pizza",
         hints: [
             "🍕 Originated in Italy.",
@@ -211,10 +231,10 @@ const revealTopicButton = document.getElementById('reveal-topic');
 const nextTopicButton = document.getElementById('next-topic');
 const topicList = document.getElementById('topic-list');
 
-// Populate the topic list
-topics.forEach((_, index) => {
+// Populate the topic list with categories
+topics.forEach((topic, index) => {
     const listItem = document.createElement('li');
-    listItem.textContent = `Topic ${index + 1}`;
+    listItem.textContent = topic.category;
     listItem.addEventListener('click', () => loadTopic(index));
     topicList.appendChild(listItem);
 });

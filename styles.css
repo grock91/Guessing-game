@@ -73,3 +73,11 @@ button:hover {
 #reveal-topic:hover {
     background-color: #218838;
 }
+
+#next-topic {
+    background-color: #dc3545;
+}
+
+#next-topic:hover {
+    background-color: #c82333;
+}

@@ -2,101 +2,201 @@ const topics = [
     {
         topic: "3 Idiots",
         hints: [
-            "🎬 A Bollywood movie about engineering students.",
-            "Directed by Rajkumar Hirani.",
-            "Famous dialogue: 'All is well'.",
             "🏫 Set in an engineering college.",
-            "🌟 Stars Aamir Khan, R. Madhavan, and Sharman Joshi."
+            "🎬 Directed by Rajkumar Hirani.",
+            "🌟 Stars Aamir Khan, R. Madhavan, and Sharman Joshi.",
+            "Famous dialogue: 'All is well'.",
+            "🎬 A Bollywood movie about engineering students."
         ]
     },
     {
         topic: "Dosa",
         hints: [
-            "🍽️ A South Indian dish made from fermented rice and lentils.",
-            "Often served with sambar and coconut chutney.",
-            "🥘 Comes in varieties like Masala Dosa, Plain Dosa, etc.",
             "🔥 Cooked on a hot griddle.",
-            "🇮🇳 A staple breakfast item in South India."
+            "🍽️ Often served with sambar and coconut chutney.",
+            "🥘 Comes in varieties like Masala Dosa, Plain Dosa, etc.",
+            "🇮🇳 A staple breakfast item in South India.",
+            "🍴 A South Indian dish made from fermented rice and lentils."
         ]
     },
     {
         topic: "Sachin Tendulkar",
         hints: [
-            "🏏 Known as the 'God of Cricket' in India.",
-            "Holds the record for the most runs in international cricket.",
             "👑 Retired from all forms of cricket in 2013.",
             "🏆 Won the 2011 ICC Cricket World Cup.",
-            "🌟 Nicknamed 'Master Blaster'."
+            "🏏 Holds the record for the most runs in international cricket.",
+            "🌟 Known as the 'God of Cricket' in India.",
+            "🔥 Nicknamed 'Master Blaster'."
         ]
     },
     {
         topic: "Gulab Jamun",
         hints: [
-            "🍬 A popular Indian dessert made from khoya.",
-            "🍯 Deep-fried and soaked in sugar syrup.",
             "🎉 Often served at festivals and weddings.",
+            "🍯 Deep-fried and soaked in sugar syrup.",
             "🔥 Best served warm.",
-            "🇮🇳 A favorite sweet across India."
+            "🇮🇳 A favorite sweet across India.",
+            "🍬 A popular Indian dessert made from khoya."
         ]
     },
     {
         topic: "Baahubali",
         hints: [
-            "🎥 A two-part Indian epic fantasy film directed by S.S. Rajamouli.",
+            "🏰 Set in the fictional kingdom of Mahishmati.",
+            "👑 Stars Prabhas, Rana Daggubati, and Anushka Shetty.",
             "⚔️ Famous for its visual effects and grand battle scenes.",
             "🤔 The question 'Why did Kattappa kill Baahubali?' became a meme.",
-            "👑 Stars Prabhas, Rana Daggubati, and Anushka Shetty.",
-            "🏰 Set in the fictional kingdom of Mahishmati."
+            "🎥 A two-part Indian epic fantasy film directed by S.S. Rajamouli."
         ]
     },
     {
         topic: "Rajinikanth",
         hints: [
-            "🌟 Indian superstar known for his style and dialogue delivery.",
+            "🇮🇳 Hails from Tamil Nadu.",
             "🎬 Famous movies: 'Robot', 'Kabali', 'Enthiran'.",
             "🔥 Known for his punch dialogues and larger-than-life roles.",
-            "🇮🇳 Hails from Tamil Nadu.",
-            "👑 Referred to as 'Thalaiva' by fans."
+            "👑 Referred to as 'Thalaiva' by fans.",
+            "🌟 Indian superstar known for his style and dialogue delivery."
         ]
     },
     {
         topic: "Pani Puri",
         hints: [
-            "🍴 A popular Indian street food.",
-            "💧 Filled with spicy water, tamarind chutney, and potatoes.",
             "🌶️ Known for its tangy and spicy flavor.",
+            "💧 Filled with spicy water, tamarind chutney, and potatoes.",
+            "🔥 Best enjoyed fresh and crispy.",
             "🇮🇳 Called 'Golgappa' in North India and 'Puchka' in West Bengal.",
-            "🔥 Best enjoyed fresh and crispy."
+            "🍴 A popular Indian street food."
         ]
     },
     {
         topic: "Shah Rukh Khan",
         hints: [
-            "🌟 Known as the 'King of Bollywood'.",
+            "🏆 Multiple Filmfare Award winner.",
             "🎬 Famous movies: 'Dilwale Dulhania Le Jayenge', 'My Name is Khan'.",
             "❤️ Nicknamed 'King Khan'.",
-            "🏆 Multiple Filmfare Award winner.",
-            "🔥 Known for his romantic roles."
+            "🔥 Known for his romantic roles.",
+            "🌟 Known as the 'King of Bollywood'."
         ]
     },
     {
         topic: "Biryani",
         hints: [
-            "🍚 A flavorful rice dish made with spices and meat.",
+            "🌶️ Known for its rich aroma and taste.",
             "🍗 Popular varieties: Hyderabadi, Lucknowi, Kolkata.",
             "🔥 Often served with raita and salad.",
             "🇮🇳 A favorite at weddings and celebrations.",
-            "🌶️ Known for its rich aroma and taste."
+            "🍚 A flavorful rice dish made with spices and meat."
         ]
     },
     {
         topic: "Amitabh Bachchan",
         hints: [
-            "🌟 Legendary Bollywood actor.",
-            "🎬 Famous movies: 'Sholay', 'Deewaar', 'Piku'.",
             "🎤 Hosted the TV show 'Kaun Banega Crorepati'.",
+            "🎬 Famous movies: 'Sholay', 'Deewaar', 'Piku'.",
             "🔥 Known as the 'Shahenshah of Bollywood'.",
-            "👑 One of the most influential actors in Indian cinema."
+            "👑 One of the most influential actors in Indian cinema.",
+            "🌟 Legendary Bollywood actor."
+        ]
+    },
+    {
+        topic: "Lionel Messi",
+        hints: [
+            "🇦🇷 Plays for Argentina.",
+            "🏆 Won the FIFA World Cup in 2022.",
+            "🌟 Known for his dribbling and playmaking skills.",
+            "🔥 Often compared to Diego Maradona.",
+            "⚽ Considered one of the greatest footballers of all time."
+        ]
+    },
+    {
+        topic: "Taj Mahal",
+        hints: [
+            "🏛️ Located in Agra, India.",
+            "💔 Built by Shah Jahan in memory of his wife Mumtaz Mahal.",
+            "🌟 One of the Seven Wonders of the World.",
+            "🔥 A UNESCO World Heritage Site.",
+            "🇮🇳 A symbol of love and one of India's most iconic landmarks."
+        ]
+    },
+    {
+        topic: "Virat Kohli",
+        hints: [
+            "🏏 Former captain of the Indian cricket team.",
+            "🔥 Known for his aggressive batting style.",
+            "🌟 Holds numerous records in international cricket.",
+            "❤️ Married to Anushka Sharma.",
+            "👑 One of the most popular cricketers in the world."
+        ]
+    },
+    {
+        topic: "Chai",
+        hints: [
+            "🌶️ Can be made with ginger, cardamom, or masala.",
+            "🔥 Often served with snacks like biscuits or pakoras.",
+            "🇮🇳 A staple beverage in Indian households.",
+            "🎉 A symbol of hospitality in India.",
+            "☕ A popular Indian tea made with milk, spices, and sugar."
+        ]
+    },
+    {
+        topic: "Eiffel Tower",
+        hints: [
+            "🇫🇷 Located in Paris, France.",
+            "🌟 One of the most recognizable structures in the world.",
+            "🔥 A symbol of romance and love.",
+            "🏛️ Built by Gustave Eiffel for the 1889 World's Fair.",
+            "🗼 A major tourist attraction and cultural icon."
+        ]
+    },
+    {
+        topic: "Cristiano Ronaldo",
+        hints: [
+            "🇵🇹 Plays for Portugal.",
+            "🏆 Won the UEFA European Championship in 2016.",
+            "🔥 Known for his goal-scoring ability and athleticism.",
+            "🌟 Often compared to Lionel Messi.",
+            "⚽ Considered one of the greatest footballers of all time."
+        ]
+    },
+    {
+        topic: "Mount Everest",
+        hints: [
+            "🏔️ The highest peak in the world.",
+            "🇳🇵 Located in the Himalayas on the Nepal-China border.",
+            "🔥 A popular destination for mountaineers.",
+            "🌟 First successfully climbed by Edmund Hillary and Tenzing Norgay in 1953.",
+            "🗻 A symbol of human endurance and adventure."
+        ]
+    },
+    {
+        topic: "Harry Potter",
+        hints: [
+            "📚 A series of fantasy novels by J.K. Rowling.",
+            "🔥 Follows the journey of a young wizard and his friends.",
+            "🌟 Adapted into a successful film series.",
+            "🎥 Features iconic characters like Hermione, Ron, and Dumbledore.",
+            "⚡ Known for its magical world and themes of friendship and bravery."
+        ]
+    },
+    {
+        topic: "Burj Khalifa",
+        hints: [
+            "🏙️ Located in Dubai, UAE.",
+            "🔥 The tallest building in the world.",
+            "🌟 A symbol of modern architecture and engineering.",
+            "🎉 Features an observation deck and luxury residences.",
+            "🇦🇪 A major tourist attraction in the Middle East."
+        ]
+    },
+    {
+        topic: "Pizza",
+        hints: [
+            "🍕 Originated in Italy.",
+            "🔥 A popular fast food worldwide.",
+            "🌟 Comes in varieties like Margherita, Pepperoni, and Hawaiian.",
+            "🇮🇳 Loved by people of all ages in India.",
+            "🍴 Made with a base of dough, tomato sauce, and cheese."
         ]
     }
 ];
@@ -109,8 +209,18 @@ const hintElement = document.getElementById('hint');
 const nextHintButton = document.getElementById('next-hint');
 const revealTopicButton = document.getElementById('reveal-topic');
 const nextTopicButton = document.getElementById('next-topic');
+const topicList = document.getElementById('topic-list');
 
-function loadTopic() {
+// Populate the topic list
+topics.forEach((_, index) => {
+    const listItem = document.createElement('li');
+    listItem.textContent = `Topic ${index + 1}`;
+    listItem.addEventListener('click', () => loadTopic(index));
+    topicList.appendChild(listItem);
+});
+
+function loadTopic(index = currentTopicIndex) {
+    currentTopicIndex = index;
     const currentTopic = topics[currentTopicIndex];
     topicElement.textContent = "❓❓❓";
     hintElement.textContent = currentTopic.hints[0];
